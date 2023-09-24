@@ -32,13 +32,13 @@ import '../utils/preference_helper.dart';
    }
 
    confirmBooking(){
-    /* var body = {
+     var body = {
        "doctor_name": doctorName,
        "appointment_date": date,
        "appointment_time": "09:00 AM - 09:30 AM",
        "location": location,
        "appointment_package": "Video Call"
-     };*/
+     };
      Webservice.getRequest(
        context: context,
        uri: Global.bookingConfirmation,
